@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr) ;
+    grid-template-rows: repeat(20, 1fr);
+    height: 100vh;
+}
+.block {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.block1 {
+    grid-area: 1 / 1 / 5 / 2;
+}
+.block2 {
+    grid-area: 1 / 2 / 2 / 14;
+}
+.block3 {
+    grid-area: 1 / 14 / 2 / 27;
+}
+.block4 {
+    grid-area: 1 / 27 / 11 / 29;
+}
+.block5 {
+    grid-area: 1 / 29 / 11 / 31;
+    background-color: rgb(226, 162, 24);
+}
+.block6 {
+    grid-area: 2 / 2 / 5 / 14;
+    background-color: rgb(47, 26, 167);
+}
+.block7 {
+    grid-area: 2 / 14 / 5 / 19;
+}
+.block8 {
+    grid-area: 2 / 19 / 5 / 27;
+    background-color: rgb(47, 26, 167);
+}
+.block9 {
+    grid-area: 5 / 1 / 13 / 2;
+    background-color: rgb(0, 0, 0);
+}
+.block10 {
+    grid-area: 5 / 2 / 13 / 6;
+}
+.block11 {
+    grid-area: 5 / 6 / 19 / 8;
+    background-color: black;
+}
+.block12 {
+    grid-area: 5 / 8 / 11 / 12;
+}
+.block13 {
+    grid-area: 5 / 12 / 11 / 14;
+}
+.block14 {
+    grid-area: 5 / 14 / 11 / 19;
+    background-color: rgb(226, 162, 24);
+}
+.block15 {
+    grid-area: 5 / 19 / 11 / 25;
+    background-color: rgb(224, 32, 32);
+}
+.block16 {
+    grid-area: 5 / 25 / 11 / 27;
+    background-color: rgb(224, 32, 32);
+}
+.block17 {
+    grid-area: 11 / 8 / 13 / 9;
+    background-color: rgb(226, 162, 24);
+}
+.block18 {
+    grid-area: 11 / 9 / 13 / 14;
+    background-color: rgb(224, 32, 32);
+}
+.block19 {
+    grid-area: 11 / 14 / 13 / 19;
+    background-color: rgb(47, 26, 167);
+}
+.block20 {
+    grid-area: 11 / 19 / 13 / 25;
+}
+.block21 {
+    grid-area: 11 / 25 / 13 / 27;
+}
+.block22 {
+    grid-area: 11 / 27 / 13 / 31;
+    background-color: black;
+}
+.block23 {
+    grid-area: 13 / 1 / 19 / 2;
+}
+.block24 {
+    grid-area: 13 / 2 / 19 / 6;
+    background-color: rgb(224, 32, 32);
+}
+.block25 {
+    grid-area: 13 / 8 / 21 / 9;
+    background-color: rgb(226, 162, 24);
+}
+.block26 {
+    grid-area: 13 / 9 / 18 / 17;
+}
+.block27 {
+    grid-area: 13 / 17 / 18 / 22;
+}
+.block28 {
+    grid-area: 13 / 22 / 18 / 25;
+    background-color: rgb(47, 26, 167);
+}
+.block29 {
+    grid-area: 13 / 25 / 18 / 27;
+    background-color: rgb(226, 162, 24);
+}
+.block30 {
+    grid-area: 13 / 27 / 18 / 31;
+}
+.block31 {
+    grid-area: 19 / 1 / 21 / 8;
+}
+.block32 {
+    grid-area: 18 / 9 / 21 / 14;
+    background-color: rgb(224, 32, 32);
+}
+.block33 {
+    grid-area: 18 / 14 / 21 / 23;
+    background-color: black;
+}
+.block34 {
+    grid-area: 18 / 23 / 21 / 31;
+}
+
+
+
